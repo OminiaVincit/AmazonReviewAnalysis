@@ -20,6 +20,7 @@ class Settings:
 
     SOURCE_DIR = r'/home/zoro/work/AmazonDataset/reviews'
     PROCESSED_DIR = r'/home/zoro/work/AmazonDataset/processed_rv'
+    RESULT_DIR = r'/home/zoro/work/AmazonReviewAnalysis/Result'
 
     PREFIX = 'Amazon'
     CATEGORIES = [
@@ -39,3 +40,4 @@ class Settings:
             'Movies_and_TV'
             ]
     FEATURES = ['STR', 'TOPICS_64', 'TFIDF', 'LIWC', 'INQUIRER', 'GALC']
+
