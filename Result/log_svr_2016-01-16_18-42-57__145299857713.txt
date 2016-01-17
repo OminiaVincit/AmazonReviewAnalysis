@@ -1,0 +1,10 @@
+2016-01-16 18:43:16,766 : INFO : categ=Home_and_Kitchen, ftype=STR, index=0, rmse=0.2335779417, rho=0.2273820154, pval=0.0000000000, mse=0.0545586549, mae=0.1532801973
+2016-01-16 18:43:36,162 : INFO : categ=Home_and_Kitchen, ftype=STR, index=1, rmse=0.2420197447, rho=0.2507213945, pval=0.0000000000, mse=0.0585735568, mae=0.1579260458
+2016-01-16 18:43:55,767 : INFO : categ=Home_and_Kitchen, ftype=STR, index=2, rmse=0.2286923215, rho=0.2168309384, pval=0.0000000000, mse=0.0523001779, mae=0.1500313169
+2016-01-16 18:44:15,105 : INFO : categ=Home_and_Kitchen, ftype=STR, index=3, rmse=0.2413465432, rho=0.2538183304, pval=0.0000000000, mse=0.0582481539, mae=0.1572582775
+2016-01-16 18:44:34,578 : INFO : categ=Home_and_Kitchen, ftype=STR, index=4, rmse=0.2328035135, rho=0.2467305715, pval=0.0000000000, mse=0.0541974759, mae=0.1527071304
+2016-01-16 18:44:54,139 : INFO : categ=Home_and_Kitchen, ftype=STR, index=5, rmse=0.2374684326, rho=0.2437875207, pval=0.0000000000, mse=0.0563912565, mae=0.1547539286
+2016-01-16 18:45:13,826 : INFO : categ=Home_and_Kitchen, ftype=STR, index=6, rmse=0.2334889218, rho=0.2485483532, pval=0.0000000000, mse=0.0545170766, mae=0.1522057075
+2016-01-16 18:45:33,215 : INFO : categ=Home_and_Kitchen, ftype=STR, index=7, rmse=0.2367507154, rho=0.2178081685, pval=0.0000000000, mse=0.0560509013, mae=0.1556141402
+2016-01-16 18:45:52,554 : INFO : categ=Home_and_Kitchen, ftype=STR, index=8, rmse=0.2394552530, rho=0.2442382413, pval=0.0000000000, mse=0.0573388182, mae=0.1560699105
+2016-01-16 18:46:11,904 : INFO : categ=Home_and_Kitchen, ftype=STR, index=9, rmse=0.2404072087, rho=0.2469555329, pval=0.0000000000, mse=0.0577956260, mae=0.1565525777
