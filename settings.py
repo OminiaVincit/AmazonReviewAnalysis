@@ -38,3 +38,4 @@ class Settings:
             'Electronics', 
             'Movies_and_TV'
             ]
+    FEATURES = ['STR', 'TOPICS_64', 'TFIDF', 'LIWC', 'INQUIRER', 'GALC']
