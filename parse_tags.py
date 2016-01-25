@@ -50,7 +50,35 @@ u',', u'<', u'>', u'.', u'/', u'?', u'_']
 # VN  past participle given, taken, begun, sung
 # WH  wh determiner who, which, when, what, where, how
 
-def token_parse(categ, path):
+def count_token(categ):
+  filename = 'reviews_%s' % categ
+  path = os.path.join(dst_dir, '%s.json' % filename)
+
+  done = 0
+  start = time.time()
+  
+  # Load stopwords and tokenizer
+  tokenizer = regexp.RegexpTokenizer("[\w']+", flags=re.UNICODE)
+  num_tokens = 0
+  count = 0
+  with open(path, 'r') as g:
+    for l in g:
+      u = json.loads(json.dumps(eval(l)))
+      if not (u.get('reviewerID') and u.get('asin') and u.get('reviewerName') \
+              and u.get('helpful') and u.get('reviewText')):
+        continue
+      tokens = tokenizer.tokenize(u['reviewText'])
+      num_tokens += len(tokens)
+      count += 1
+      # if count == 1000:
+      #   break
+
+  print categ, 'aveg =', num_tokens / float(count)
+
+
+def token_parse_amz(categ, path):
+  if categ == 'Yelp' or categ == 'Tripadvisor':
+    return
   done = 0
   start = time.time()
     # Load stopwords and tokenizer
@@ -123,6 +151,105 @@ def token_parse(categ, path):
         print categ, 'Tagging reviews, Done ', done, ' in', tmp
       yield str(tag)
 
+def token_parse_yelp(categ, path):
+  if categ != 'Yelp' and categ != 'Tripadvisor':
+    return
+  done = 0
+  start = time.time()
+    # Load stopwords and tokenizer
+  stopwds = stopwords.words('english')
+  tokenizer = regexp.RegexpTokenizer("[\w']+", flags=re.UNICODE)
+
+  with open(path, 'r') as g:
+    for l in g:
+      u = json.loads(json.dumps(eval(l)))
+      if not (u.get('review_id') and u.get('user_id') and u.get('item_id') \
+              and u.get('helpful') and u.get('votes') and u.get('text')):
+        continue
+      if int(u['votes']) < 10:
+        continue
+      sentences = sent_tokenize(u['text'])
+      num_sent = len(sentences)
+      num_tokens = 0
+      num_pos = 0
+      num_neg = 0
+      sent_len = 0
+      words = []
+      for sentence in sentences:
+        sent_len += len(sentence)
+        tokens = tokenizer.tokenize(sentence)
+        num_tokens += len(tokens)
+
+        pos_tagged = pos_tag(tokens)
+        simplified_tags = [(word, map_tag('en-ptb', 'universal', tag)) for word, tag in pos_tagged]
+        for word, tag in simplified_tags:
+          words.append({'word': word, 'pos': tag})
+          tf = tag[0].lower()
+          if tag == 'ADV':
+            tf = 'r'
+          if tag == 'NP' or tag == 'NUM':
+            tf = tag # No need to calculate positive score
+
+          if tf in ['a', 'v', 'r', 'n']:
+              try:
+                  sen_ls = swn.senti_synsets(word, tf)
+                  if len(sen_ls) != 0:
+                      sen_score = sen_ls[0]
+                      pos_score = sen_score.pos_score()
+                      neg_score = sen_score.neg_score()
+                      # obj_score = sen_score.obj_score()
+                      if pos_score > neg_score:
+                          num_pos += 1
+                      if pos_score < neg_score:
+                          num_neg += 1
+              except WordNetError:
+                  pass
+
+      if num_sent != 0:
+        sent_len = sent_len / num_sent
+
+      tag = {}
+      tag['num_sent'] = num_sent
+      tag['sent_len'] = sent_len      
+      tag['num_tokens'] = num_tokens
+      tag['num_pos'] = num_pos
+      tag['num_neg'] = num_neg
+      tag['words'] = words
+      tag['review_id'] = u['review_id']
+      tag['user_id'] = u['user_id']
+      tag['item_id'] = u['item_id']
+      tag['votes'] = int(u['votes'])
+      tag['helpful'] = int(u['helpful'])
+      done += 1
+      if done % 100 == 0:
+        tmp = time.time() - start
+        print categ, 'Tagging reviews, Done ', done, ' in', tmp
+        #break
+      yield str(tag)
+
+def check_data(categ):
+  if categ != 'Yelp' and categ != 'Tripadvisor':
+    return
+  done = 0
+  start = time.time()
+  filename = 'reviews_%s' % categ
+
+  path = os.path.join(src_dir, '%s.json' % filename)
+  with open(path, 'r') as g:
+    for l in g:
+      u = json.loads(json.dumps(eval(l)))
+      # if not (u.get('review_id') and u.get('user_id') and u.get('item_id') \
+      #         and u.get('helpful') and u.get('votes') and u.get('text')):
+      #   continue
+      if int(u['votes']) < 10:
+        continue
+
+      done += 1
+      if done % 1000 == 0:
+        tmp = time.time() - start
+        print categ, 'Tagging reviews, Done ', done, ' in', tmp
+  print categ, done
+
 def write_to_file(categ):
   """
   Write to json file
@@ -130,13 +257,15 @@ def write_to_file(categ):
   filename = 'reviews_%s' % categ
   print filename
   f = open(os.path.join(dst_dir, '%s_tags.json' % filename), 'w')
-  for l in token_parse(categ, os.path.join(src_dir, '%s.json' % filename)):
+  for l in token_parse_yelp(categ, os.path.join(src_dir, '%s.json' % filename)):
     f.write(l + '\n')
 
 #write_to_file(categories[1])
 
+#check_data(categories[1])
+
 jobs = []
-for categ in categories:
+for categ in categories[:2]:
   _ps = multiprocessing.Process(target=write_to_file, args=(categ,))
   jobs.append(_ps)
   _ps.start()

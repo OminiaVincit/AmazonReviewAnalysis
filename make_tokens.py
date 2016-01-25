@@ -168,8 +168,7 @@ def write_to_file(categ):
 #write_to_file(categories[0])
 
 jobs = []
-dim = Settings.STR_DIM
-for categ in categories:
+for categ in categories[:2]:
   _ps = multiprocessing.Process(target=write_to_file, args=(categ, ))
   jobs.append(_ps)
   _ps.start()

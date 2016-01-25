@@ -24,6 +24,8 @@ class Settings:
 
     PREFIX = 'Amazon'
     CATEGORIES = [
+            'Yelp',
+            'Tripadvisor',
             'Home_and_Kitchen',
             'Sports_and_Outdoors',
             'Automotive',

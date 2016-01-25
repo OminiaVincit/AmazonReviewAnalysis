@@ -126,7 +126,7 @@ def extract_STR(categ, dim):
 
 jobs = []
 dim = Settings.STR_DIM
-for categ in categories:
+for categ in categories[:2]:
   _ps = multiprocessing.Process(target=extract_STR, args=(categ, dim))
   jobs.append(_ps)
   _ps.start()

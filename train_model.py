@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
     # jobs = []
     # dim = Settings.TOPICS_DIM
-    # for categ in categories[1:]:
+    # for categ in categories[:2]:
     #   _ps = multiprocessing.Process(target=make_model, args=(categ, dim))
     #   jobs.append(_ps)
     #   _ps.start()
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     #   j.join()
     #   print '%s.exitcode = %s' % (j.name, j.exitcode)
 
-    for categ in categories:
+    for categ in categories[:2]:
         print categ
-        #make_model(categ, lda_num_topics=Settings.TOPICS_DIM)
-        display(categ, lda_num_topics=Settings.TOPICS_DIM)
+        make_model(categ, lda_num_topics=Settings.TOPICS_DIM)
+        #display(categ, lda_num_topics=Settings.TOPICS_DIM)

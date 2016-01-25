@@ -10,7 +10,7 @@ categories = Settings.CATEGORIES
 num_test = 50
 train_rate = 0.8
 
-for categ in categories:
+for categ in categories[:2]:
   # Load features file
   features = np.load(os.path.join(src_dir, categ + '_STR_features.npy'))
   N = features.shape[0]

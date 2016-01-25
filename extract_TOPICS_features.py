@@ -152,35 +152,34 @@ class Predict(object):
         data = []
         done = 0
         dim = self.lda_num_topics
-        rvs.cursor = rvs.collection.find()
-        N = rvs.cursor.count()
+        filename = 'reviews_%s' % categ
+        with open(os.path.join(src_dir, '%s_corpus2.json' % filename), 'r') as g:
+            for l in g:      
+                review = json.loads(json.dumps(eval(l)))
+                rvid = review['review_id']
+                votes = review['votes']
+                if votes < 10:
+                    continue
+                helpful = review['helpful']
+                features = np.zeros((dim+3), )
+                features[dim] = helpful
+                features[dim+1] = votes
+                features[dim+2] = helpful / float(votes)
 
-        for review in rvs.cursor:
-            rvid = review['review_id']
-            votes = review['votes']
-            if votes < 10:
-                continue
-            helpful = review['helpful']
-            features = np.zeros((dim+3), )
-            features[dim] = helpful
-            features[dim+1] = votes
-            features[dim+2] = helpful / float(votes)
+                for word in review['words']:
+                    if word in vocal:
+                        features[:dim] += vocal[word]
 
-            for word in review['words']:
-                if word in vocal:
-                    features[:dim] += vocal[word]
-
-            data.append(features)
-            #print done, features
-            done += 1
-            if done % 1000 == 0:
-                end = time.time()
-                print categ + ' TOPICS features: Done ' + str(done) + \
-                    ' out of ' + str(N) + ' reviews in ' + \
-                    ('%.2f' % (end - start)) + ' sec ~ ' + \
-                    ('%.2f' % (done / (end - start))) + '/sec'
-                sys.stdout.flush()
-                #break
+                data.append(features)
+                #print done, features
+                done += 1
+                if done % 1000 == 0:
+                    end = time.time()
+                    print categ + ' TOPICS features: Done ' + str(done) + ' reviews in ' + \
+                        ('%.2f' % (end - start)) + ' sec ~ ' + \
+                        ('%.2f' % (done / (end - start))) + '/sec'
+                    sys.stdout.flush()
+                    #break
 
         print 'Number of processed reviews ', done
         data = np.vstack(data)
@@ -265,7 +264,7 @@ if __name__ == '__main__':
     # predict = Predict(categ=categories[0], lda_num_topics=64)
     # predict.extract_vocal_topics_features(src_dir)
 
-    for categ in categories:
+    for categ in categories[:2]:
         print categ
         predict = Predict(categ, lda_num_topics=Settings.TOPICS_DIM)
         predict.extract_vocal_topics_features(src_dir)

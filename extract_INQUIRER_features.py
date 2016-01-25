@@ -113,7 +113,7 @@ def extract_INQUIRER_features(categ, dim):
 
 jobs = []
 dim = Settings.INQUIRER_DIM
-for categ in categories:
+for categ in categories[:2]:
   _ps = multiprocessing.Process(target=extract_INQUIRER_features, args=(categ, dim))
   jobs.append(_ps)
   _ps.start()

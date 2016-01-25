@@ -102,7 +102,7 @@ def extract_TFIDF_features(categ, dim):
 
 jobs = []
 dim = Settings.TFIDF_DIM
-for categ in categories:
+for categ in categories[:2]:
   _ps = multiprocessing.Process(target=extract_TFIDF_features, args=(categ, dim))
   jobs.append(_ps)
   _ps.start()

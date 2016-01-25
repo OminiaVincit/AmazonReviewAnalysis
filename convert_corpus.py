@@ -31,6 +31,6 @@ def corpus_parse(categ):
       f.write(json.dumps(corpus, indent=1).replace('\n', ''))
       f.write('\n')
 
-for categ in categories:
+for categ in categories[:2]:
   print categ
   corpus_parse(categ)
