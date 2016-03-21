@@ -1,0 +1,648 @@
+2016-01-24 21:04:59,400 : INFO : Iter:	 categ=Books, ftype=STR, classifier=MultinomialNB, iter=0, accuracy=0.244056073612
+2016-01-24 21:04:59,559 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LDA, iter=0, accuracy=0.295189279318
+2016-01-24 21:05:02,112 : INFO : Iter:	 categ=Books, ftype=STR, classifier=AdaBoostClassifier, iter=0, accuracy=0.303279194714
+2016-01-24 21:05:03,159 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LogisticRegression, iter=0, accuracy=0.292286790589
+2016-01-24 21:05:10,386 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.293645402334
+2016-01-24 21:05:15,671 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.292286790589
+2016-01-24 21:05:15,717 : INFO : Iter:	 categ=Books, ftype=STR, classifier=MultinomialNB, iter=1, accuracy=0.241771135676
+2016-01-24 21:05:15,751 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LDA, iter=1, accuracy=0.290495893287
+2016-01-24 21:05:18,310 : INFO : Iter:	 categ=Books, ftype=STR, classifier=AdaBoostClassifier, iter=1, accuracy=0.299573889952
+2016-01-24 21:05:19,555 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LogisticRegression, iter=1, accuracy=0.288210955351
+2016-01-24 21:05:28,277 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.29024887297
+2016-01-24 21:05:33,252 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.288087445192
+2016-01-24 21:05:33,293 : INFO : Iter:	 categ=Books, ftype=STR, classifier=MultinomialNB, iter=2, accuracy=0.232384363614
+2016-01-24 21:05:33,327 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LDA, iter=2, accuracy=0.299512134873
+2016-01-24 21:05:35,882 : INFO : Iter:	 categ=Books, ftype=STR, classifier=AdaBoostClassifier, iter=2, accuracy=0.301982338047
+2016-01-24 21:05:37,106 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LogisticRegression, iter=2, accuracy=0.297844747731
+2016-01-24 21:05:44,192 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.297288952016
+2016-01-24 21:05:48,802 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.29982091027
+2016-01-24 21:05:48,842 : INFO : Iter:	 categ=Books, ftype=STR, classifier=MultinomialNB, iter=3, accuracy=0.237077749645
+2016-01-24 21:05:48,876 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LDA, iter=3, accuracy=0.29308960662
+2016-01-24 21:05:51,429 : INFO : Iter:	 categ=Books, ftype=STR, classifier=AdaBoostClassifier, iter=3, accuracy=0.297165441858
+2016-01-24 21:05:52,524 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LogisticRegression, iter=3, accuracy=0.291978015192
+2016-01-24 21:05:59,482 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.291051689001
+2016-01-24 21:06:04,067 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.29024887297
+2016-01-24 21:06:04,107 : INFO : Iter:	 categ=Books, ftype=STR, classifier=MultinomialNB, iter=4, accuracy=0.241524115358
+2016-01-24 21:06:04,141 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LDA, iter=4, accuracy=0.29698017662
+2016-01-24 21:06:06,690 : INFO : Iter:	 categ=Books, ftype=STR, classifier=AdaBoostClassifier, iter=4, accuracy=0.30173531773
+2016-01-24 21:06:07,975 : INFO : Iter:	 categ=Books, ftype=STR, classifier=LogisticRegression, iter=4, accuracy=0.290989933922
+2016-01-24 21:06:16,094 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.293830667572
+2016-01-24 21:06:21,146 : INFO : Iter:	 categ=Books, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.292719076144
+2016-01-24 21:06:21,146 : INFO : Stat:	 categ=Books, ftype=STR, classifier=MultinomialNB, num_test=5, mean=0.239362687581, median=0.241524115358
+2016-01-24 21:06:21,146 : INFO : Stat:	 categ=Books, ftype=STR, classifier=LDA, num_test=5, mean=0.295053418144, median=0.295189279318
+2016-01-24 21:06:21,147 : INFO : Stat:	 categ=Books, ftype=STR, classifier=AdaBoostClassifier, num_test=5, mean=0.30074723646, median=0.30173531773
+2016-01-24 21:06:21,147 : INFO : Stat:	 categ=Books, ftype=STR, classifier=LogisticRegression, num_test=5, mean=0.292262088557, median=0.291978015192
+2016-01-24 21:06:21,147 : INFO : Stat:	 categ=Books, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.293213116779, median=0.293645402334
+2016-01-24 21:06:21,147 : INFO : Stat:	 categ=Books, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.292632619033, median=0.292286790589
+2016-01-24 21:06:21,223 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=MultinomialNB, iter=0, accuracy=0.280368060273
+2016-01-24 21:06:21,617 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LDA, iter=0, accuracy=0.30173531773
+2016-01-24 21:06:25,838 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=0, accuracy=0.321188167727
+2016-01-24 21:06:27,642 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LogisticRegression, iter=0, accuracy=0.318532699315
+2016-01-24 21:06:28,905 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.308281356142
+2016-01-24 21:06:29,807 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.308960662014
+2016-01-24 21:06:29,878 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=MultinomialNB, iter=1, accuracy=0.29117519916
+2016-01-24 21:06:30,241 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LDA, iter=1, accuracy=0.314580374236
+2016-01-24 21:06:34,451 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=1, accuracy=0.319335515346
+2016-01-24 21:06:36,203 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LogisticRegression, iter=1, accuracy=0.332612857408
+2016-01-24 21:06:37,462 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.322670289631
+2016-01-24 21:06:38,376 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.32378188106
+2016-01-24 21:06:38,443 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=MultinomialNB, iter=2, accuracy=0.288890261224
+2016-01-24 21:06:38,806 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LDA, iter=2, accuracy=0.321496943124
+2016-01-24 21:06:43,042 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=2, accuracy=0.321188167727
+2016-01-24 21:06:44,864 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LogisticRegression, iter=2, accuracy=0.337676773915
+2016-01-24 21:06:46,152 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.328907552646
+2016-01-24 21:06:47,083 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.331563021058
+2016-01-24 21:06:47,150 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=MultinomialNB, iter=3, accuracy=0.286481813129
+2016-01-24 21:06:47,514 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LDA, iter=3, accuracy=0.319088495029
+2016-01-24 21:06:51,732 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=3, accuracy=0.320447106775
+2016-01-24 21:06:53,459 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LogisticRegression, iter=3, accuracy=0.336379917248
+2016-01-24 21:06:54,740 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.326560859631
+2016-01-24 21:06:55,626 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.327672451059
+2016-01-24 21:06:55,694 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=MultinomialNB, iter=4, accuracy=0.282776508368
+2016-01-24 21:06:56,055 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LDA, iter=4, accuracy=0.315753720744
+2016-01-24 21:07:00,264 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=4, accuracy=0.319397270425
+2016-01-24 21:07:01,975 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=LogisticRegression, iter=4, accuracy=0.329895633916
+2016-01-24 21:07:03,284 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.321435188044
+2016-01-24 21:07:04,209 : INFO : Iter:	 categ=Books, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.321126412647
+2016-01-24 21:07:04,210 : INFO : Stat:	 categ=Books, ftype=TOPICS_64, classifier=MultinomialNB, num_test=5, mean=0.285938368431, median=0.286481813129
+2016-01-24 21:07:04,210 : INFO : Stat:	 categ=Books, ftype=TOPICS_64, classifier=LDA, num_test=5, mean=0.314530970172, median=0.315753720744
+2016-01-24 21:07:04,210 : INFO : Stat:	 categ=Books, ftype=TOPICS_64, classifier=AdaBoostClassifier, num_test=5, mean=0.3203112456, median=0.320447106775
+2016-01-24 21:07:04,210 : INFO : Stat:	 categ=Books, ftype=TOPICS_64, classifier=LogisticRegression, num_test=5, mean=0.33101957636, median=0.332612857408
+2016-01-24 21:07:04,210 : INFO : Stat:	 categ=Books, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.321571049219, median=0.322670289631
+2016-01-24 21:07:04,210 : INFO : Stat:	 categ=Books, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.322620885568, median=0.32378188106
+2016-01-24 21:07:04,834 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=MultinomialNB, iter=0, accuracy=0.322608534552
+2016-01-24 21:07:34,433 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LDA, iter=0, accuracy=0.352250972642
+2016-01-24 21:08:18,981 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=AdaBoostClassifier, iter=0, accuracy=0.327240165504
+2016-01-24 21:08:20,964 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LogisticRegression, iter=0, accuracy=0.354227135182
+2016-01-24 21:08:43,657 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.355029951213
+2016-01-24 21:08:56,255 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.352930278515
+2016-01-24 21:08:56,875 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=MultinomialNB, iter=1, accuracy=0.325511023282
+2016-01-24 21:09:26,398 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LDA, iter=1, accuracy=0.349101463595
+2016-01-24 21:10:10,867 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=AdaBoostClassifier, iter=1, accuracy=0.33428024455
+2016-01-24 21:10:12,794 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LogisticRegression, iter=1, accuracy=0.355523991848
+2016-01-24 21:10:37,604 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.35533872661
+2016-01-24 21:10:50,174 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.352250972642
+2016-01-24 21:10:50,798 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=MultinomialNB, iter=2, accuracy=0.329031062805
+2016-01-24 21:11:20,355 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LDA, iter=2, accuracy=0.349966034706
+2016-01-24 21:12:04,882 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=AdaBoostClassifier, iter=2, accuracy=0.331501265979
+2016-01-24 21:12:06,856 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LogisticRegression, iter=2, accuracy=0.356635583277
+2016-01-24 21:12:30,189 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.355153461372
+2016-01-24 21:12:43,395 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.352806768357
+2016-01-24 21:12:44,017 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=MultinomialNB, iter=3, accuracy=0.326252084234
+2016-01-24 21:13:13,517 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LDA, iter=3, accuracy=0.350645340579
+2016-01-24 21:13:57,999 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=AdaBoostClassifier, iter=3, accuracy=0.326005063917
+2016-01-24 21:13:59,958 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LogisticRegression, iter=3, accuracy=0.355091706293
+2016-01-24 21:14:25,689 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.357129623912
+2016-01-24 21:14:38,737 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.352250972642
+2016-01-24 21:14:39,358 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=MultinomialNB, iter=4, accuracy=0.332489347249
+2016-01-24 21:15:08,871 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LDA, iter=4, accuracy=0.350954115976
+2016-01-24 21:15:53,356 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=AdaBoostClassifier, iter=4, accuracy=0.331192490582
+2016-01-24 21:15:55,365 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=LogisticRegression, iter=4, accuracy=0.354844685975
+2016-01-24 21:16:20,964 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.352374482801
+2016-01-24 21:16:33,944 : INFO : Iter:	 categ=Books, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.352189217563
+2016-01-24 21:16:33,945 : INFO : Stat:	 categ=Books, ftype=TFIDF, classifier=MultinomialNB, num_test=5, mean=0.327178410424, median=0.326252084234
+2016-01-24 21:16:33,945 : INFO : Stat:	 categ=Books, ftype=TFIDF, classifier=LDA, num_test=5, mean=0.3505835855, median=0.350645340579
+2016-01-24 21:16:33,945 : INFO : Stat:	 categ=Books, ftype=TFIDF, classifier=AdaBoostClassifier, num_test=5, mean=0.330043846106, median=0.331192490582
+2016-01-24 21:16:33,945 : INFO : Stat:	 categ=Books, ftype=TFIDF, classifier=LogisticRegression, num_test=5, mean=0.355264620515, median=0.355091706293
+2016-01-24 21:16:33,945 : INFO : Stat:	 categ=Books, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.355005249182, median=0.355153461372
+2016-01-24 21:16:33,946 : INFO : Stat:	 categ=Books, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.352485641944, median=0.352250972642
+2016-01-24 21:16:34,023 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=MultinomialNB, iter=0, accuracy=0.253195825357
+2016-01-24 21:16:34,386 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LDA, iter=0, accuracy=0.297227196937
+2016-01-24 21:16:38,852 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=AdaBoostClassifier, iter=0, accuracy=0.320941147409
+2016-01-24 21:16:52,205 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LogisticRegression, iter=0, accuracy=0.305440622491
+2016-01-24 21:17:28,082 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.299141604397
+2016-01-24 21:17:54,013 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.297659482492
+2016-01-24 21:17:54,080 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=MultinomialNB, iter=1, accuracy=0.258753782499
+2016-01-24 21:17:54,439 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LDA, iter=1, accuracy=0.302476378682
+2016-01-24 21:17:58,893 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=AdaBoostClassifier, iter=1, accuracy=0.313530537887
+2016-01-24 21:18:09,463 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LogisticRegression, iter=1, accuracy=0.312789476934
+2016-01-24 21:18:45,316 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.305687642809
+2016-01-24 21:19:11,669 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.307293274872
+2016-01-24 21:19:11,734 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=MultinomialNB, iter=2, accuracy=0.250725622182
+2016-01-24 21:19:12,095 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LDA, iter=2, accuracy=0.310875069474
+2016-01-24 21:19:16,543 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=AdaBoostClassifier, iter=2, accuracy=0.316186006299
+2016-01-24 21:19:27,741 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LogisticRegression, iter=2, accuracy=0.31803865868
+2016-01-24 21:20:03,879 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.31031927376
+2016-01-24 21:20:30,447 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.314642129315
+2016-01-24 21:20:30,514 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=MultinomialNB, iter=3, accuracy=0.249737540913
+2016-01-24 21:20:30,872 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LDA, iter=3, accuracy=0.297844747731
+2016-01-24 21:20:35,328 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=AdaBoostClassifier, iter=3, accuracy=0.313036497252
+2016-01-24 21:20:48,881 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LogisticRegression, iter=3, accuracy=0.311245599951
+2016-01-24 21:21:24,404 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.302414623603
+2016-01-24 21:21:50,279 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.302291113444
+2016-01-24 21:21:50,343 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=MultinomialNB, iter=4, accuracy=0.253442845674
+2016-01-24 21:21:50,701 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LDA, iter=4, accuracy=0.301611807571
+2016-01-24 21:21:55,151 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=AdaBoostClassifier, iter=4, accuracy=0.314333353918
+2016-01-24 21:22:07,463 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=LogisticRegression, iter=4, accuracy=0.312048415982
+2016-01-24 21:22:43,140 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.305687642809
+2016-01-24 21:23:08,532 : INFO : Iter:	 categ=Books, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.305440622491
+2016-01-24 21:23:08,532 : INFO : Stat:	 categ=Books, ftype=LIWC, classifier=MultinomialNB, num_test=5, mean=0.253171123325, median=0.253195825357
+2016-01-24 21:23:08,533 : INFO : Stat:	 categ=Books, ftype=LIWC, classifier=LDA, num_test=5, mean=0.302007040079, median=0.301611807571
+2016-01-24 21:23:08,533 : INFO : Stat:	 categ=Books, ftype=LIWC, classifier=AdaBoostClassifier, num_test=5, mean=0.315605508553, median=0.314333353918
+2016-01-24 21:23:08,533 : INFO : Stat:	 categ=Books, ftype=LIWC, classifier=LogisticRegression, num_test=5, mean=0.311912554808, median=0.312048415982
+2016-01-24 21:23:08,533 : INFO : Stat:	 categ=Books, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.304650157475, median=0.305687642809
+2016-01-24 21:23:08,533 : INFO : Stat:	 categ=Books, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.305465324523, median=0.305440622491
+2016-01-24 21:23:08,677 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=MultinomialNB, iter=0, accuracy=0.264435249799
+2016-01-24 21:23:10,373 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LDA, iter=0, accuracy=0.302785154079
+2016-01-24 21:23:20,264 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=0, accuracy=0.326375594393
+2016-01-24 21:23:53,393 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LogisticRegression, iter=0, accuracy=0.315506700426
+2016-01-24 21:25:15,470 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.306737479158
+2016-01-24 21:26:16,002 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.304452541222
+2016-01-24 21:26:16,138 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=MultinomialNB, iter=1, accuracy=0.266720187735
+2016-01-24 21:26:17,827 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LDA, iter=1, accuracy=0.312851232014
+2016-01-24 21:26:27,649 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=1, accuracy=0.318779719632
+2016-01-24 21:26:59,941 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LogisticRegression, iter=1, accuracy=0.325572778361
+2016-01-24 21:28:23,094 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.317112332489
+2016-01-24 21:29:25,429 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.320632372013
+2016-01-24 21:29:25,564 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=MultinomialNB, iter=2, accuracy=0.265608596307
+2016-01-24 21:29:27,261 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LDA, iter=2, accuracy=0.316247761378
+2016-01-24 21:29:37,087 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=2, accuracy=0.324461186933
+2016-01-24 21:30:13,459 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LogisticRegression, iter=2, accuracy=0.322299759155
+2016-01-24 21:31:37,693 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.317421107886
+2016-01-24 21:32:40,873 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.320200086457
+2016-01-24 21:32:41,009 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=MultinomialNB, iter=3, accuracy=0.260976965355
+2016-01-24 21:32:42,709 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LDA, iter=3, accuracy=0.313962823442
+2016-01-24 21:32:52,493 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=3, accuracy=0.326190329155
+2016-01-24 21:33:22,092 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LogisticRegression, iter=3, accuracy=0.3275489409
+2016-01-24 21:34:44,638 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.319767800902
+2016-01-24 21:35:45,748 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.322361514235
+2016-01-24 21:35:45,884 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=MultinomialNB, iter=4, accuracy=0.268325819799
+2016-01-24 21:35:47,577 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LDA, iter=4, accuracy=0.312912987093
+2016-01-24 21:35:57,406 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=4, accuracy=0.319767800902
+2016-01-24 21:36:37,484 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=LogisticRegression, iter=4, accuracy=0.324584697091
+2016-01-24 21:37:59,838 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.317544618045
+2016-01-24 21:39:00,137 : INFO : Iter:	 categ=Books, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.319767800902
+2016-01-24 21:39:00,137 : INFO : Stat:	 categ=Books, ftype=INQUIRER, classifier=MultinomialNB, num_test=5, mean=0.265213363799, median=0.265608596307
+2016-01-24 21:39:00,137 : INFO : Stat:	 categ=Books, ftype=INQUIRER, classifier=LDA, num_test=5, mean=0.311751991601, median=0.312912987093
+2016-01-24 21:39:00,137 : INFO : Stat:	 categ=Books, ftype=INQUIRER, classifier=AdaBoostClassifier, num_test=5, mean=0.323114926203, median=0.324461186933
+2016-01-24 21:39:00,138 : INFO : Stat:	 categ=Books, ftype=INQUIRER, classifier=LogisticRegression, num_test=5, mean=0.323102575187, median=0.324584697091
+2016-01-24 21:39:00,138 : INFO : Stat:	 categ=Books, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.315716667696, median=0.317421107886
+2016-01-24 21:39:00,138 : INFO : Stat:	 categ=Books, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.317482862965, median=0.320200086457
+2016-01-24 21:39:00,219 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=MultinomialNB, iter=0, accuracy=0.257456925832
+2016-01-24 21:39:00,379 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LDA, iter=0, accuracy=0.276106959797
+2016-01-24 21:39:02,570 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=AdaBoostClassifier, iter=0, accuracy=0.311863150744
+2016-01-24 21:39:03,420 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LogisticRegression, iter=0, accuracy=0.278885938368
+2016-01-24 21:39:03,838 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.279132958686
+2016-01-24 21:39:04,154 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.27678626567
+2016-01-24 21:39:04,209 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=MultinomialNB, iter=1, accuracy=0.264249984561
+2016-01-24 21:39:04,369 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LDA, iter=1, accuracy=0.285061446304
+2016-01-24 21:39:06,572 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=AdaBoostClassifier, iter=1, accuracy=0.305070092015
+2016-01-24 21:39:07,394 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LogisticRegression, iter=1, accuracy=0.285061446304
+2016-01-24 21:39:07,825 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.281726672019
+2016-01-24 21:39:08,171 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.284196875193
+2016-01-24 21:39:08,224 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=MultinomialNB, iter=2, accuracy=0.26338541345
+2016-01-24 21:39:08,384 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LDA, iter=2, accuracy=0.285184956463
+2016-01-24 21:39:10,585 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=AdaBoostClassifier, iter=2, accuracy=0.308343111221
+2016-01-24 21:39:11,429 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LogisticRegression, iter=2, accuracy=0.287469894399
+2016-01-24 21:39:11,823 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.285678997098
+2016-01-24 21:39:12,165 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.289199036621
+2016-01-24 21:39:12,218 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=MultinomialNB, iter=3, accuracy=0.26344716853
+2016-01-24 21:39:12,378 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LDA, iter=3, accuracy=0.282344222812
+2016-01-24 21:39:14,573 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=AdaBoostClassifier, iter=3, accuracy=0.303834990428
+2016-01-24 21:39:15,297 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LogisticRegression, iter=3, accuracy=0.283949854876
+2016-01-24 21:39:15,744 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.281788427098
+2016-01-24 21:39:16,085 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.28444389551
+2016-01-24 21:39:16,138 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=MultinomialNB, iter=4, accuracy=0.266411412339
+2016-01-24 21:39:16,299 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LDA, iter=4, accuracy=0.288025690113
+2016-01-24 21:39:18,489 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=AdaBoostClassifier, iter=4, accuracy=0.309639967887
+2016-01-24 21:39:19,367 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=LogisticRegression, iter=4, accuracy=0.290989933922
+2016-01-24 21:39:19,816 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.289446056938
+2016-01-24 21:39:20,140 : INFO : Iter:	 categ=Books, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.288457975668
+2016-01-24 21:39:20,141 : INFO : Stat:	 categ=Books, ftype=GALC, classifier=MultinomialNB, num_test=5, mean=0.262990180942, median=0.26344716853
+2016-01-24 21:39:20,141 : INFO : Stat:	 categ=Books, ftype=GALC, classifier=LDA, num_test=5, mean=0.283344655098, median=0.285061446304
+2016-01-24 21:39:20,141 : INFO : Stat:	 categ=Books, ftype=GALC, classifier=AdaBoostClassifier, num_test=5, mean=0.307750262459, median=0.308343111221
+2016-01-24 21:39:20,141 : INFO : Stat:	 categ=Books, ftype=GALC, classifier=LogisticRegression, num_test=5, mean=0.285271413574, median=0.285061446304
+2016-01-24 21:39:20,141 : INFO : Stat:	 categ=Books, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.283554622368, median=0.281788427098
+2016-01-24 21:39:20,142 : INFO : Stat:	 categ=Books, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.284616809733, median=0.28444389551
+2016-01-24 21:39:20,160 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=MultinomialNB, iter=0, accuracy=0.290406868234
+2016-01-24 21:39:20,172 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LDA, iter=0, accuracy=0.459313176558
+2016-01-24 21:39:21,071 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=AdaBoostClassifier, iter=0, accuracy=0.464539007092
+2016-01-24 21:39:21,521 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LogisticRegression, iter=0, accuracy=0.462672639044
+2016-01-24 21:39:24,173 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.461552818216
+2016-01-24 21:39:26,033 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.46248600224
+2016-01-24 21:39:26,049 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=MultinomialNB, iter=1, accuracy=0.296005972378
+2016-01-24 21:39:26,061 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LDA, iter=1, accuracy=0.454833893244
+2016-01-24 21:39:26,957 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=AdaBoostClassifier, iter=1, accuracy=0.459873086973
+2016-01-24 21:39:27,378 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LogisticRegression, iter=1, accuracy=0.45819335573
+2016-01-24 21:39:30,253 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.45819335573
+2016-01-24 21:39:32,356 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.457260171706
+2016-01-24 21:39:32,372 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=MultinomialNB, iter=2, accuracy=0.299925345278
+2016-01-24 21:39:32,384 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LDA, iter=2, accuracy=0.46248600224
+2016-01-24 21:39:33,279 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=AdaBoostClassifier, iter=2, accuracy=0.465098917507
+2016-01-24 21:39:33,741 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LogisticRegression, iter=2, accuracy=0.461179544606
+2016-01-24 21:39:36,635 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.463232549459
+2016-01-24 21:39:38,639 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.461926091825
+2016-01-24 21:39:38,656 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=MultinomialNB, iter=3, accuracy=0.294886151549
+2016-01-24 21:39:38,667 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LDA, iter=3, accuracy=0.455580440463
+2016-01-24 21:39:39,564 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=AdaBoostClassifier, iter=3, accuracy=0.464165733483
+2016-01-24 21:39:40,011 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LogisticRegression, iter=3, accuracy=0.458939902949
+2016-01-24 21:39:42,789 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.458379992535
+2016-01-24 21:39:44,830 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.458753266144
+2016-01-24 21:39:44,846 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=MultinomialNB, iter=4, accuracy=0.291153415454
+2016-01-24 21:39:44,858 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LDA, iter=4, accuracy=0.462299365435
+2016-01-24 21:39:45,754 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=AdaBoostClassifier, iter=4, accuracy=0.472937663307
+2016-01-24 21:39:46,187 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=LogisticRegression, iter=4, accuracy=0.464725643897
+2016-01-24 21:39:48,805 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.466592011945
+2016-01-24 21:39:50,884 : INFO : Iter:	 categ=Electronics, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.466218738335
+2016-01-24 21:39:50,884 : INFO : Stat:	 categ=Electronics, ftype=STR, classifier=MultinomialNB, num_test=5, mean=0.294475550579, median=0.294886151549
+2016-01-24 21:39:50,884 : INFO : Stat:	 categ=Electronics, ftype=STR, classifier=LDA, num_test=5, mean=0.458902575588, median=0.459313176558
+2016-01-24 21:39:50,884 : INFO : Stat:	 categ=Electronics, ftype=STR, classifier=AdaBoostClassifier, num_test=5, mean=0.465322881672, median=0.464539007092
+2016-01-24 21:39:50,885 : INFO : Stat:	 categ=Electronics, ftype=STR, classifier=LogisticRegression, num_test=5, mean=0.461142217245, median=0.461179544606
+2016-01-24 21:39:50,885 : INFO : Stat:	 categ=Electronics, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.461590145577, median=0.461552818216
+2016-01-24 21:39:50,885 : INFO : Stat:	 categ=Electronics, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.46132885405, median=0.461926091825
+2016-01-24 21:39:50,911 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=MultinomialNB, iter=0, accuracy=0.399962672639
+2016-01-24 21:39:51,015 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LDA, iter=0, accuracy=0.464165733483
+2016-01-24 21:39:52,178 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=0, accuracy=0.471817842479
+2016-01-24 21:39:52,595 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LogisticRegression, iter=0, accuracy=0.472937663307
+2016-01-24 21:39:53,079 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.467898469578
+2016-01-24 21:39:53,471 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.472377752893
+2016-01-24 21:39:53,497 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=MultinomialNB, iter=1, accuracy=0.40780141844
+2016-01-24 21:39:53,601 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LDA, iter=1, accuracy=0.457446808511
+2016-01-24 21:39:54,762 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=1, accuracy=0.463792459873
+2016-01-24 21:39:55,226 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LogisticRegression, iter=1, accuracy=0.464912280702
+2016-01-24 21:39:55,723 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.461739455021
+2016-01-24 21:39:56,135 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.465845464726
+2016-01-24 21:39:56,160 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=MultinomialNB, iter=2, accuracy=0.411534154535
+2016-01-24 21:39:56,263 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LDA, iter=2, accuracy=0.463792459873
+2016-01-24 21:39:57,420 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=2, accuracy=0.477976857036
+2016-01-24 21:39:57,866 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LogisticRegression, iter=2, accuracy=0.475737215379
+2016-01-24 21:39:58,376 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.471817842479
+2016-01-24 21:39:58,757 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.473870847331
+2016-01-24 21:39:58,782 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=MultinomialNB, iter=3, accuracy=0.399029488615
+2016-01-24 21:39:58,885 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LDA, iter=3, accuracy=0.460246360582
+2016-01-24 21:40:00,043 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=3, accuracy=0.46211272863
+2016-01-24 21:40:00,473 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LogisticRegression, iter=3, accuracy=0.467898469578
+2016-01-24 21:40:00,957 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.465098917507
+2016-01-24 21:40:01,343 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.467711832773
+2016-01-24 21:40:01,368 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=MultinomialNB, iter=4, accuracy=0.417506532288
+2016-01-24 21:40:01,471 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LDA, iter=4, accuracy=0.466965285554
+2016-01-24 21:40:02,632 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=4, accuracy=0.47891004106
+2016-01-24 21:40:03,132 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=LogisticRegression, iter=4, accuracy=0.472377752893
+2016-01-24 21:40:03,618 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.468458379993
+2016-01-24 21:40:04,026 : INFO : Iter:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.473124300112
+2016-01-24 21:40:04,027 : INFO : Stat:	 categ=Electronics, ftype=TOPICS_64, classifier=MultinomialNB, num_test=5, mean=0.407166853303, median=0.40780141844
+2016-01-24 21:40:04,027 : INFO : Stat:	 categ=Electronics, ftype=TOPICS_64, classifier=LDA, num_test=5, mean=0.462523329601, median=0.463792459873
+2016-01-24 21:40:04,027 : INFO : Stat:	 categ=Electronics, ftype=TOPICS_64, classifier=AdaBoostClassifier, num_test=5, mean=0.470921985816, median=0.471817842479
+2016-01-24 21:40:04,027 : INFO : Stat:	 categ=Electronics, ftype=TOPICS_64, classifier=LogisticRegression, num_test=5, mean=0.470772676372, median=0.472377752893
+2016-01-24 21:40:04,027 : INFO : Stat:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.467002612915, median=0.467898469578
+2016-01-24 21:40:04,027 : INFO : Stat:	 categ=Electronics, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.470586039567, median=0.472377752893
+2016-01-24 21:40:04,238 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=MultinomialNB, iter=0, accuracy=0.472564389698
+2016-01-24 21:40:14,927 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LDA, iter=0, accuracy=0.477790220231
+2016-01-24 21:40:29,226 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=AdaBoostClassifier, iter=0, accuracy=0.486188876446
+2016-01-24 21:40:29,702 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LogisticRegression, iter=0, accuracy=0.497013811124
+2016-01-24 21:40:35,738 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.503172825681
+2016-01-24 21:40:39,627 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.507652108996
+2016-01-24 21:40:39,836 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=MultinomialNB, iter=1, accuracy=0.468831653602
+2016-01-24 21:40:50,521 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LDA, iter=1, accuracy=0.472751026502
+2016-01-24 21:41:04,725 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=AdaBoostClassifier, iter=1, accuracy=0.485815602837
+2016-01-24 21:41:05,196 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LogisticRegression, iter=1, accuracy=0.494960806271
+2016-01-24 21:41:11,702 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.501679731243
+2016-01-24 21:41:15,243 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.499066815976
+2016-01-24 21:41:15,451 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=MultinomialNB, iter=2, accuracy=0.473124300112
+2016-01-24 21:41:26,143 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LDA, iter=2, accuracy=0.493654348638
+2016-01-24 21:41:40,083 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=AdaBoostClassifier, iter=2, accuracy=0.490668159761
+2016-01-24 21:41:40,546 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LogisticRegression, iter=2, accuracy=0.498693542367
+2016-01-24 21:41:46,168 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.509705113848
+2016-01-24 21:41:50,037 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.507278835386
+2016-01-24 21:41:50,245 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=MultinomialNB, iter=3, accuracy=0.465658827921
+2016-01-24 21:42:00,933 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LDA, iter=3, accuracy=0.480029861889
+2016-01-24 21:42:14,917 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=AdaBoostClassifier, iter=3, accuracy=0.478163493841
+2016-01-24 21:42:15,391 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LogisticRegression, iter=3, accuracy=0.492721164614
+2016-01-24 21:42:22,145 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.506159014558
+2016-01-24 21:42:25,832 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.510451661068
+2016-01-24 21:42:26,041 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=MultinomialNB, iter=4, accuracy=0.473124300112
+2016-01-24 21:42:36,730 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LDA, iter=4, accuracy=0.486562150056
+2016-01-24 21:42:50,688 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=AdaBoostClassifier, iter=4, accuracy=0.48749533408
+2016-01-24 21:42:51,183 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=LogisticRegression, iter=4, accuracy=0.49570735349
+2016-01-24 21:42:57,029 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.505225830534
+2016-01-24 21:43:00,504 : INFO : Iter:	 categ=Electronics, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.505599104143
+2016-01-24 21:43:00,504 : INFO : Stat:	 categ=Electronics, ftype=TFIDF, classifier=MultinomialNB, num_test=5, mean=0.470660694289, median=0.472564389698
+2016-01-24 21:43:00,505 : INFO : Stat:	 categ=Electronics, ftype=TFIDF, classifier=LDA, num_test=5, mean=0.482157521463, median=0.480029861889
+2016-01-24 21:43:00,505 : INFO : Stat:	 categ=Electronics, ftype=TFIDF, classifier=AdaBoostClassifier, num_test=5, mean=0.485666293393, median=0.486188876446
+2016-01-24 21:43:00,505 : INFO : Stat:	 categ=Electronics, ftype=TFIDF, classifier=LogisticRegression, num_test=5, mean=0.495819335573, median=0.49570735349
+2016-01-24 21:43:00,505 : INFO : Stat:	 categ=Electronics, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.505188503173, median=0.505225830534
+2016-01-24 21:43:00,505 : INFO : Stat:	 categ=Electronics, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.506009705114, median=0.507278835386
+2016-01-24 21:43:00,533 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=MultinomialNB, iter=0, accuracy=0.398469578201
+2016-01-24 21:43:00,637 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LDA, iter=0, accuracy=0.460806270997
+2016-01-24 21:43:01,838 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=AdaBoostClassifier, iter=0, accuracy=0.464352370287
+2016-01-24 21:43:03,911 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LogisticRegression, iter=0, accuracy=0.464539007092
+2016-01-24 21:43:16,546 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.462859275849
+2016-01-24 21:43:27,419 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.463232549459
+2016-01-24 21:43:27,445 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=MultinomialNB, iter=1, accuracy=0.387644643524
+2016-01-24 21:43:27,548 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LDA, iter=1, accuracy=0.458753266144
+2016-01-24 21:43:28,746 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=AdaBoostClassifier, iter=1, accuracy=0.463605823068
+2016-01-24 21:43:30,791 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LogisticRegression, iter=1, accuracy=0.462299365435
+2016-01-24 21:43:43,558 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.459499813363
+2016-01-24 21:43:54,437 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.459499813363
+2016-01-24 21:43:54,463 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=MultinomialNB, iter=2, accuracy=0.401082493468
+2016-01-24 21:43:54,564 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LDA, iter=2, accuracy=0.462859275849
+2016-01-24 21:43:55,757 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=AdaBoostClassifier, iter=2, accuracy=0.462859275849
+2016-01-24 21:43:57,758 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LogisticRegression, iter=2, accuracy=0.467711832773
+2016-01-24 21:44:10,220 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.464725643897
+2016-01-24 21:44:20,953 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.466965285554
+2016-01-24 21:44:20,979 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=MultinomialNB, iter=3, accuracy=0.397536394177
+2016-01-24 21:44:21,082 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LDA, iter=3, accuracy=0.459126539754
+2016-01-24 21:44:22,283 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=AdaBoostClassifier, iter=3, accuracy=0.462859275849
+2016-01-24 21:44:24,323 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LogisticRegression, iter=3, accuracy=0.460992907801
+2016-01-24 21:44:37,427 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.460992907801
+2016-01-24 21:44:48,482 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.461366181411
+2016-01-24 21:44:48,508 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=MultinomialNB, iter=4, accuracy=0.406121687197
+2016-01-24 21:44:48,608 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LDA, iter=4, accuracy=0.468645016797
+2016-01-24 21:44:49,807 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=AdaBoostClassifier, iter=4, accuracy=0.469018290407
+2016-01-24 21:44:51,803 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=LogisticRegression, iter=4, accuracy=0.471817842479
+2016-01-24 21:45:03,951 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.47032474804
+2016-01-24 21:45:14,722 : INFO : Iter:	 categ=Electronics, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.47069802165
+2016-01-24 21:45:14,722 : INFO : Stat:	 categ=Electronics, ftype=LIWC, classifier=MultinomialNB, num_test=5, mean=0.398170959313, median=0.398469578201
+2016-01-24 21:45:14,722 : INFO : Stat:	 categ=Electronics, ftype=LIWC, classifier=LDA, num_test=5, mean=0.462038073908, median=0.460806270997
+2016-01-24 21:45:14,722 : INFO : Stat:	 categ=Electronics, ftype=LIWC, classifier=AdaBoostClassifier, num_test=5, mean=0.464539007092, median=0.463605823068
+2016-01-24 21:45:14,723 : INFO : Stat:	 categ=Electronics, ftype=LIWC, classifier=LogisticRegression, num_test=5, mean=0.465472191116, median=0.464539007092
+2016-01-24 21:45:14,723 : INFO : Stat:	 categ=Electronics, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.46368047779, median=0.462859275849
+2016-01-24 21:45:14,723 : INFO : Stat:	 categ=Electronics, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.464352370287, median=0.463232549459
+2016-01-24 21:45:14,771 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=MultinomialNB, iter=0, accuracy=0.396229936543
+2016-01-24 21:45:15,303 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LDA, iter=0, accuracy=0.460992907801
+2016-01-24 21:45:17,908 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=0, accuracy=0.466218738335
+2016-01-24 21:45:23,955 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LogisticRegression, iter=0, accuracy=0.468645016797
+2016-01-24 21:45:54,879 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.46677864875
+2016-01-24 21:46:19,867 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.470511384845
+2016-01-24 21:46:19,917 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=MultinomialNB, iter=1, accuracy=0.379245987309
+2016-01-24 21:46:20,448 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LDA, iter=1, accuracy=0.461926091825
+2016-01-24 21:46:23,012 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=1, accuracy=0.462859275849
+2016-01-24 21:46:29,817 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LogisticRegression, iter=1, accuracy=0.466218738335
+2016-01-24 21:47:00,356 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.464725643897
+2016-01-24 21:47:25,793 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.464912280702
+2016-01-24 21:47:25,838 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=MultinomialNB, iter=2, accuracy=0.393243747667
+2016-01-24 21:47:26,370 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LDA, iter=2, accuracy=0.463419186264
+2016-01-24 21:47:28,981 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=2, accuracy=0.468831653602
+2016-01-24 21:47:34,489 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LogisticRegression, iter=2, accuracy=0.46677864875
+2016-01-24 21:48:04,924 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.46603210153
+2016-01-24 21:48:29,425 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.46603210153
+2016-01-24 21:48:29,474 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=MultinomialNB, iter=3, accuracy=0.395483389324
+2016-01-24 21:48:30,005 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LDA, iter=3, accuracy=0.456700261292
+2016-01-24 21:48:32,565 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=3, accuracy=0.466965285554
+2016-01-24 21:48:38,473 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LogisticRegression, iter=3, accuracy=0.465098917507
+2016-01-24 21:49:09,862 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.460992907801
+2016-01-24 21:49:35,330 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.465845464726
+2016-01-24 21:49:35,375 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=MultinomialNB, iter=4, accuracy=0.391937290034
+2016-01-24 21:49:35,908 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LDA, iter=4, accuracy=0.469391564016
+2016-01-24 21:49:38,512 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=4, accuracy=0.478536767451
+2016-01-24 21:49:44,495 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=LogisticRegression, iter=4, accuracy=0.473497573722
+2016-01-24 21:50:14,564 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.47069802165
+2016-01-24 21:50:40,059 : INFO : Iter:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.472751026502
+2016-01-24 21:50:40,059 : INFO : Stat:	 categ=Electronics, ftype=INQUIRER, classifier=MultinomialNB, num_test=5, mean=0.391228070175, median=0.393243747667
+2016-01-24 21:50:40,059 : INFO : Stat:	 categ=Electronics, ftype=INQUIRER, classifier=LDA, num_test=5, mean=0.46248600224, median=0.461926091825
+2016-01-24 21:50:40,059 : INFO : Stat:	 categ=Electronics, ftype=INQUIRER, classifier=AdaBoostClassifier, num_test=5, mean=0.468682344158, median=0.466965285554
+2016-01-24 21:50:40,060 : INFO : Stat:	 categ=Electronics, ftype=INQUIRER, classifier=LogisticRegression, num_test=5, mean=0.468047779022, median=0.46677864875
+2016-01-24 21:50:40,060 : INFO : Stat:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.465845464726, median=0.46603210153
+2016-01-24 21:50:40,060 : INFO : Stat:	 categ=Electronics, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.468010451661, median=0.46603210153
+2016-01-24 21:50:40,081 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=MultinomialNB, iter=0, accuracy=0.444942142591
+2016-01-24 21:50:40,131 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LDA, iter=0, accuracy=0.457633445315
+2016-01-24 21:50:40,837 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=AdaBoostClassifier, iter=0, accuracy=0.461179544606
+2016-01-24 21:50:41,198 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LogisticRegression, iter=0, accuracy=0.45819335573
+2016-01-24 21:50:41,335 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.45819335573
+2016-01-24 21:50:41,450 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.458379992535
+2016-01-24 21:50:41,471 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=MultinomialNB, iter=1, accuracy=0.438223217619
+2016-01-24 21:50:41,520 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LDA, iter=1, accuracy=0.456700261292
+2016-01-24 21:50:42,222 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=AdaBoostClassifier, iter=1, accuracy=0.455767077268
+2016-01-24 21:50:42,500 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LogisticRegression, iter=1, accuracy=0.457446808511
+2016-01-24 21:50:42,629 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.456886898096
+2016-01-24 21:50:42,758 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.457633445315
+2016-01-24 21:50:42,779 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=MultinomialNB, iter=2, accuracy=0.443075774543
+2016-01-24 21:50:42,829 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LDA, iter=2, accuracy=0.458566629339
+2016-01-24 21:50:43,537 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=AdaBoostClassifier, iter=2, accuracy=0.460806270997
+2016-01-24 21:50:43,845 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LogisticRegression, iter=2, accuracy=0.459313176558
+2016-01-24 21:50:43,970 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.460059723778
+2016-01-24 21:50:44,086 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.459686450168
+2016-01-24 21:50:44,107 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=MultinomialNB, iter=3, accuracy=0.441955953714
+2016-01-24 21:50:44,155 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LDA, iter=3, accuracy=0.453714072415
+2016-01-24 21:50:44,859 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=AdaBoostClassifier, iter=3, accuracy=0.457446808511
+2016-01-24 21:50:45,142 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LogisticRegression, iter=3, accuracy=0.454647256439
+2016-01-24 21:50:45,268 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.453340798806
+2016-01-24 21:50:45,392 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.454647256439
+2016-01-24 21:50:45,413 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=MultinomialNB, iter=4, accuracy=0.448861515491
+2016-01-24 21:50:45,462 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LDA, iter=4, accuracy=0.462299365435
+2016-01-24 21:50:46,169 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=AdaBoostClassifier, iter=4, accuracy=0.463792459873
+2016-01-24 21:50:46,469 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=LogisticRegression, iter=4, accuracy=0.463792459873
+2016-01-24 21:50:46,606 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.462859275849
+2016-01-24 21:50:46,734 : INFO : Iter:	 categ=Electronics, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.463232549459
+2016-01-24 21:50:46,734 : INFO : Stat:	 categ=Electronics, ftype=GALC, classifier=MultinomialNB, num_test=5, mean=0.443411720791, median=0.443075774543
+2016-01-24 21:50:46,734 : INFO : Stat:	 categ=Electronics, ftype=GALC, classifier=LDA, num_test=5, mean=0.457782754759, median=0.457633445315
+2016-01-24 21:50:46,735 : INFO : Stat:	 categ=Electronics, ftype=GALC, classifier=AdaBoostClassifier, num_test=5, mean=0.459798432251, median=0.460806270997
+2016-01-24 21:50:46,735 : INFO : Stat:	 categ=Electronics, ftype=GALC, classifier=LogisticRegression, num_test=5, mean=0.458678611422, median=0.45819335573
+2016-01-24 21:50:46,735 : INFO : Stat:	 categ=Electronics, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.458268010452, median=0.45819335573
+2016-01-24 21:50:46,735 : INFO : Stat:	 categ=Electronics, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.458715938783, median=0.458379992535
+2016-01-24 21:50:46,767 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=MultinomialNB, iter=0, accuracy=0.264799542745
+2016-01-24 21:50:46,793 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LDA, iter=0, accuracy=0.27917040908
+2016-01-24 21:50:48,748 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=AdaBoostClassifier, iter=0, accuracy=0.29672572875
+2016-01-24 21:50:49,789 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LogisticRegression, iter=0, accuracy=0.281864946518
+2016-01-24 21:50:56,213 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.281456683269
+2016-01-24 21:50:59,706 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.286845758145
+2016-01-24 21:50:59,738 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=MultinomialNB, iter=1, accuracy=0.265534416592
+2016-01-24 21:50:59,763 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LDA, iter=1, accuracy=0.275414387197
+2016-01-24 21:51:01,726 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=AdaBoostClassifier, iter=1, accuracy=0.291010043276
+2016-01-24 21:51:02,775 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LogisticRegression, iter=1, accuracy=0.283334694211
+2016-01-24 21:51:09,236 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.279823630277
+2016-01-24 21:51:12,483 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.281456683269
+2016-01-24 21:51:12,514 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=MultinomialNB, iter=2, accuracy=0.270515228219
+2016-01-24 21:51:12,540 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LDA, iter=2, accuracy=0.28121172532
+2016-01-24 21:51:14,500 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=AdaBoostClassifier, iter=2, accuracy=0.297787213195
+2016-01-24 21:51:15,478 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LogisticRegression, iter=2, accuracy=0.28790724259
+2016-01-24 21:51:21,233 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.283089736262
+2016-01-24 21:51:24,986 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.288642116437
+2016-01-24 21:51:25,017 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=MultinomialNB, iter=3, accuracy=0.267167469584
+2016-01-24 21:51:25,043 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LDA, iter=3, accuracy=0.284967747203
+2016-01-24 21:51:27,005 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=AdaBoostClassifier, iter=3, accuracy=0.294194496611
+2016-01-24 21:51:27,880 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LogisticRegression, iter=3, accuracy=0.287254021393
+2016-01-24 21:51:33,490 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.28349799951
+2016-01-24 21:51:36,853 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.287580631992
+2016-01-24 21:51:36,884 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=MultinomialNB, iter=4, accuracy=0.264636237446
+2016-01-24 21:51:36,910 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LDA, iter=4, accuracy=0.281048420021
+2016-01-24 21:51:38,865 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=AdaBoostClassifier, iter=4, accuracy=0.294847717808
+2016-01-24 21:51:39,851 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=LogisticRegression, iter=4, accuracy=0.289785253531
+2016-01-24 21:51:45,387 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.285212705152
+2016-01-24 21:51:48,917 : INFO : Iter:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.28798889524
+2016-01-24 21:51:48,917 : INFO : Stat:	 categ=Movies_and_TV, ftype=STR, classifier=MultinomialNB, num_test=5, mean=0.266530578917, median=0.265534416592
+2016-01-24 21:51:48,918 : INFO : Stat:	 categ=Movies_and_TV, ftype=STR, classifier=LDA, num_test=5, mean=0.280362537764, median=0.281048420021
+2016-01-24 21:51:48,918 : INFO : Stat:	 categ=Movies_and_TV, ftype=STR, classifier=AdaBoostClassifier, num_test=5, mean=0.294913039928, median=0.294847717808
+2016-01-24 21:51:48,918 : INFO : Stat:	 categ=Movies_and_TV, ftype=STR, classifier=LogisticRegression, num_test=5, mean=0.286029231649, median=0.287254021393
+2016-01-24 21:51:48,918 : INFO : Stat:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.282616150894, median=0.283089736262
+2016-01-24 21:51:48,918 : INFO : Stat:	 categ=Movies_and_TV, ftype=STR, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.286502817016, median=0.287580631992
+2016-01-24 21:51:48,971 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=MultinomialNB, iter=0, accuracy=0.312321384829
+2016-01-24 21:51:49,256 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LDA, iter=0, accuracy=0.331999673389
+2016-01-24 21:51:52,018 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=0, accuracy=0.32301788193
+2016-01-24 21:51:53,184 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LogisticRegression, iter=0, accuracy=0.332979505185
+2016-01-24 21:51:54,187 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.331346452192
+2016-01-24 21:51:54,893 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.333632726382
+2016-01-24 21:51:54,943 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=MultinomialNB, iter=1, accuracy=0.32530415612
+2016-01-24 21:51:55,225 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LDA, iter=1, accuracy=0.331754715441
+2016-01-24 21:51:57,986 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=1, accuracy=0.330529925696
+2016-01-24 21:51:59,234 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LogisticRegression, iter=1, accuracy=0.334857516126
+2016-01-24 21:52:00,243 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.334530905528
+2016-01-24 21:52:00,904 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.332571241937
+2016-01-24 21:52:00,954 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=MultinomialNB, iter=2, accuracy=0.324242671675
+2016-01-24 21:52:01,237 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LDA, iter=2, accuracy=0.341553033396
+2016-01-24 21:52:04,010 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=2, accuracy=0.329958357149
+2016-01-24 21:52:05,297 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LogisticRegression, iter=2, accuracy=0.344574181432
+2016-01-24 21:52:06,332 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.343267739038
+2016-01-24 21:52:07,034 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.342369559892
+2016-01-24 21:52:07,084 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=MultinomialNB, iter=3, accuracy=0.312566342778
+2016-01-24 21:52:07,367 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LDA, iter=3, accuracy=0.331346452192
+2016-01-24 21:52:10,128 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=3, accuracy=0.317873765004
+2016-01-24 21:52:11,351 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LogisticRegression, iter=3, accuracy=0.328978525353
+2016-01-24 21:52:12,337 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.330203315098
+2016-01-24 21:52:12,992 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.327998693558
+2016-01-24 21:52:13,042 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=MultinomialNB, iter=4, accuracy=0.316893933208
+2016-01-24 21:52:13,325 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LDA, iter=4, accuracy=0.330203315098
+2016-01-24 21:52:16,086 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=AdaBoostClassifier, iter=4, accuracy=0.323997713726
+2016-01-24 21:52:17,373 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LogisticRegression, iter=4, accuracy=0.335755695272
+2016-01-24 21:52:18,354 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.332734547236
+2016-01-24 21:52:19,046 : INFO : Iter:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.334204294929
+2016-01-24 21:52:19,047 : INFO : Stat:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=MultinomialNB, num_test=5, mean=0.318265697722, median=0.316893933208
+2016-01-24 21:52:19,047 : INFO : Stat:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LDA, num_test=5, mean=0.333371437903, median=0.331754715441
+2016-01-24 21:52:19,047 : INFO : Stat:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=AdaBoostClassifier, num_test=5, mean=0.325075528701, median=0.323997713726
+2016-01-24 21:52:19,047 : INFO : Stat:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=LogisticRegression, num_test=5, mean=0.335429084674, median=0.334857516126
+2016-01-24 21:52:19,047 : INFO : Stat:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.334416591818, median=0.332734547236
+2016-01-24 21:52:19,048 : INFO : Stat:	 categ=Movies_and_TV, ftype=TOPICS_64, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.33415530334, median=0.333632726382
+2016-01-24 21:52:19,525 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=MultinomialNB, iter=0, accuracy=0.311831468931
+2016-01-24 21:52:42,836 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LDA, iter=0, accuracy=0.337552053564
+2016-01-24 21:53:16,162 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=AdaBoostClassifier, iter=0, accuracy=0.327263819711
+2016-01-24 21:53:17,698 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LogisticRegression, iter=0, accuracy=0.340328243652
+2016-01-24 21:53:34,876 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.336980485017
+2016-01-24 21:53:40,656 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.338858495958
+2016-01-24 21:53:41,129 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=MultinomialNB, iter=1, accuracy=0.307912141749
+2016-01-24 21:54:04,445 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LDA, iter=1, accuracy=0.336980485017
+2016-01-24 21:54:37,718 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=AdaBoostClassifier, iter=1, accuracy=0.327917040908
+2016-01-24 21:54:39,251 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LogisticRegression, iter=1, accuracy=0.337797011513
+2016-01-24 21:54:56,484 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.34065485425
+2016-01-24 21:55:03,217 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.334694210827
+2016-01-24 21:55:03,689 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=MultinomialNB, iter=2, accuracy=0.318445333551
+2016-01-24 21:55:26,976 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LDA, iter=2, accuracy=0.336653874418
+2016-01-24 21:56:00,259 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=AdaBoostClassifier, iter=2, accuracy=0.342696170491
+2016-01-24 21:56:01,786 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LogisticRegression, iter=2, accuracy=0.341961296644
+2016-01-24 21:56:19,057 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.345390707928
+2016-01-24 21:56:25,319 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.341226422797
+2016-01-24 21:56:25,790 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=MultinomialNB, iter=3, accuracy=0.31207642688
+2016-01-24 21:56:49,083 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LDA, iter=3, accuracy=0.345472360578
+2016-01-24 21:57:22,349 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=AdaBoostClassifier, iter=3, accuracy=0.328080346207
+2016-01-24 21:57:23,892 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LogisticRegression, iter=3, accuracy=0.351269698702
+2016-01-24 21:57:40,418 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.350289866906
+2016-01-24 21:57:46,044 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.347023760921
+2016-01-24 21:57:46,516 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=MultinomialNB, iter=4, accuracy=0.307177267902
+2016-01-24 21:58:09,795 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LDA, iter=4, accuracy=0.336735527068
+2016-01-24 21:58:43,066 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=AdaBoostClassifier, iter=4, accuracy=0.332897852535
+2016-01-24 21:58:44,573 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LogisticRegression, iter=4, accuracy=0.341308075447
+2016-01-24 21:59:01,438 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.345554013228
+2016-01-24 21:59:07,690 : INFO : Iter:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.337633706214
+2016-01-24 21:59:07,690 : INFO : Stat:	 categ=Movies_and_TV, ftype=TFIDF, classifier=MultinomialNB, num_test=5, mean=0.311488527803, median=0.311831468931
+2016-01-24 21:59:07,691 : INFO : Stat:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LDA, num_test=5, mean=0.338678860129, median=0.336980485017
+2016-01-24 21:59:07,691 : INFO : Stat:	 categ=Movies_and_TV, ftype=TFIDF, classifier=AdaBoostClassifier, num_test=5, mean=0.33177104597, median=0.328080346207
+2016-01-24 21:59:07,691 : INFO : Stat:	 categ=Movies_and_TV, ftype=TFIDF, classifier=LogisticRegression, num_test=5, mean=0.342532865191, median=0.341308075447
+2016-01-24 21:59:07,691 : INFO : Stat:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.343773985466, median=0.345390707928
+2016-01-24 21:59:07,691 : INFO : Stat:	 categ=Movies_and_TV, ftype=TFIDF, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.339887319344, median=0.338858495958
+2016-01-24 21:59:07,748 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=MultinomialNB, iter=0, accuracy=0.266187637789
+2016-01-24 21:59:08,027 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LDA, iter=0, accuracy=0.304482730465
+2016-01-24 21:59:10,930 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=AdaBoostClassifier, iter=0, accuracy=0.297787213195
+2016-01-24 21:59:19,324 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LogisticRegression, iter=0, accuracy=0.306605699355
+2016-01-24 21:59:44,781 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.302441414224
+2016-01-24 22:00:01,196 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.306034130808
+2016-01-24 22:00:01,246 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=MultinomialNB, iter=1, accuracy=0.274271250102
+2016-01-24 22:00:01,532 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LDA, iter=1, accuracy=0.301298277129
+2016-01-24 22:00:04,427 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=AdaBoostClassifier, iter=1, accuracy=0.298685392341
+2016-01-24 22:00:12,357 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LogisticRegression, iter=1, accuracy=0.300971666531
+2016-01-24 22:00:37,042 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.300073487385
+2016-01-24 22:00:53,180 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.301461582428
+2016-01-24 22:00:53,230 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=MultinomialNB, iter=2, accuracy=0.277292398138
+2016-01-24 22:00:53,515 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LDA, iter=2, accuracy=0.310525026537
+2016-01-24 22:00:56,411 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=AdaBoostClassifier, iter=2, accuracy=0.309300236793
+2016-01-24 22:01:05,327 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LogisticRegression, iter=2, accuracy=0.310280068588
+2016-01-24 22:01:29,909 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.307912141749
+2016-01-24 22:01:45,996 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.309626847391
+2016-01-24 22:01:46,046 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=MultinomialNB, iter=3, accuracy=0.267575732833
+2016-01-24 22:01:46,332 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LDA, iter=3, accuracy=0.304237772516
+2016-01-24 22:01:49,234 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=AdaBoostClassifier, iter=3, accuracy=0.296235812852
+2016-01-24 22:01:56,339 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LogisticRegression, iter=3, accuracy=0.304727688413
+2016-01-24 22:02:21,742 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.303094635421
+2016-01-24 22:02:38,493 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.30105331918
+2016-01-24 22:02:38,543 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=MultinomialNB, iter=4, accuracy=0.267575732833
+2016-01-24 22:02:38,824 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LDA, iter=4, accuracy=0.302441414224
+2016-01-24 22:02:41,715 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=AdaBoostClassifier, iter=4, accuracy=0.303666203968
+2016-01-24 22:02:50,111 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=LogisticRegression, iter=4, accuracy=0.307013962603
+2016-01-24 22:03:15,691 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.303176288071
+2016-01-24 22:03:32,071 : INFO : Iter:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.305707520209
+2016-01-24 22:03:32,072 : INFO : Stat:	 categ=Movies_and_TV, ftype=LIWC, classifier=MultinomialNB, num_test=5, mean=0.270580550339, median=0.267575732833
+2016-01-24 22:03:32,072 : INFO : Stat:	 categ=Movies_and_TV, ftype=LIWC, classifier=LDA, num_test=5, mean=0.304597044174, median=0.304237772516
+2016-01-24 22:03:32,072 : INFO : Stat:	 categ=Movies_and_TV, ftype=LIWC, classifier=AdaBoostClassifier, num_test=5, mean=0.30113497183, median=0.298685392341
+2016-01-24 22:03:32,072 : INFO : Stat:	 categ=Movies_and_TV, ftype=LIWC, classifier=LogisticRegression, num_test=5, mean=0.305919817098, median=0.306605699355
+2016-01-24 22:03:32,073 : INFO : Stat:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.30333959337, median=0.303094635421
+2016-01-24 22:03:32,073 : INFO : Stat:	 categ=Movies_and_TV, ftype=LIWC, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.304776680003, median=0.305707520209
+2016-01-24 22:03:32,180 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=MultinomialNB, iter=0, accuracy=0.283906262758
+2016-01-24 22:03:33,519 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LDA, iter=0, accuracy=0.311913121581
+2016-01-24 22:03:40,799 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=0, accuracy=0.315179227566
+2016-01-24 22:04:01,635 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LogisticRegression, iter=0, accuracy=0.314934269617
+2016-01-24 22:05:00,759 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.314036090471
+2016-01-24 22:05:40,942 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.31215807953
+2016-01-24 22:05:41,046 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=MultinomialNB, iter=1, accuracy=0.290928390626
+2016-01-24 22:05:42,374 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LDA, iter=1, accuracy=0.313382869274
+2016-01-24 22:05:49,601 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=1, accuracy=0.303012982771
+2016-01-24 22:06:13,876 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LogisticRegression, iter=1, accuracy=0.317547154405
+2016-01-24 22:07:11,456 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.31648566996
+2016-01-24 22:07:49,639 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.313627827223
+2016-01-24 22:07:49,743 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=MultinomialNB, iter=2, accuracy=0.289376990283
+2016-01-24 22:07:51,082 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LDA, iter=2, accuracy=0.319833428595
+2016-01-24 22:07:58,307 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=2, accuracy=0.312892953376
+2016-01-24 22:08:21,929 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LogisticRegression, iter=2, accuracy=0.320404997142
+2016-01-24 22:09:19,659 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.321058218339
+2016-01-24 22:09:57,652 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.319180207398
+2016-01-24 22:09:57,757 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=MultinomialNB, iter=3, accuracy=0.285539315751
+2016-01-24 22:09:59,092 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LDA, iter=3, accuracy=0.308973626194
+2016-01-24 22:10:06,313 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=3, accuracy=0.30758553115
+2016-01-24 22:10:25,917 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LogisticRegression, iter=3, accuracy=0.313056258676
+2016-01-24 22:11:24,650 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.310116763289
+2016-01-24 22:12:04,648 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.311178247734
+2016-01-24 22:12:04,753 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=MultinomialNB, iter=4, accuracy=0.284396178656
+2016-01-24 22:12:06,081 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LDA, iter=4, accuracy=0.308810320895
+2016-01-24 22:12:13,317 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=AdaBoostClassifier, iter=4, accuracy=0.310116763289
+2016-01-24 22:12:40,150 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LogisticRegression, iter=4, accuracy=0.31207642688
+2016-01-24 22:13:38,915 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.306769004654
+2016-01-24 22:14:18,622 : INFO : Iter:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.306605699355
+2016-01-24 22:14:18,622 : INFO : Stat:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=MultinomialNB, num_test=5, mean=0.286829427615, median=0.285539315751
+2016-01-24 22:14:18,622 : INFO : Stat:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LDA, num_test=5, mean=0.312582673308, median=0.311913121581
+2016-01-24 22:14:18,623 : INFO : Stat:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=AdaBoostClassifier, num_test=5, mean=0.309757491631, median=0.310116763289
+2016-01-24 22:14:18,623 : INFO : Stat:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=LogisticRegression, num_test=5, mean=0.315603821344, median=0.314934269617
+2016-01-24 22:14:18,623 : INFO : Stat:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.313693149343, median=0.314036090471
+2016-01-24 22:14:18,623 : INFO : Stat:	 categ=Movies_and_TV, ftype=INQUIRER, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.312550012248, median=0.31215807953
+2016-01-24 22:14:18,671 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=MultinomialNB, iter=0, accuracy=0.260880215563
+2016-01-24 22:14:18,787 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LDA, iter=0, accuracy=0.292888054217
+2016-01-24 22:14:20,467 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=AdaBoostClassifier, iter=0, accuracy=0.300236792684
+2016-01-24 22:14:21,204 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LogisticRegression, iter=0, accuracy=0.291744917123
+2016-01-24 22:14:21,563 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=0, accuracy=0.289295337634
+2016-01-24 22:14:21,833 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=0, accuracy=0.291418306524
+2016-01-24 22:14:21,877 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=MultinomialNB, iter=1, accuracy=0.259655425819
+2016-01-24 22:14:21,991 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LDA, iter=1, accuracy=0.289866906181
+2016-01-24 22:14:23,668 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=AdaBoostClassifier, iter=1, accuracy=0.295827549604
+2016-01-24 22:14:24,452 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LogisticRegression, iter=1, accuracy=0.290601780028
+2016-01-24 22:14:24,762 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=1, accuracy=0.287254021393
+2016-01-24 22:14:25,039 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=1, accuracy=0.288805421736
+2016-01-24 22:14:25,081 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=MultinomialNB, iter=2, accuracy=0.267820690781
+2016-01-24 22:14:25,197 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LDA, iter=2, accuracy=0.297460602597
+2016-01-24 22:14:26,866 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=AdaBoostClassifier, iter=2, accuracy=0.304727688413
+2016-01-24 22:14:27,586 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LogisticRegression, iter=2, accuracy=0.298603739691
+2016-01-24 22:14:27,920 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=2, accuracy=0.295827549604
+2016-01-24 22:14:28,199 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=2, accuracy=0.298277129093
+2016-01-24 22:14:28,241 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=MultinomialNB, iter=3, accuracy=0.25932881522
+2016-01-24 22:14:28,358 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LDA, iter=3, accuracy=0.292071527721
+2016-01-24 22:14:30,028 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=AdaBoostClassifier, iter=3, accuracy=0.297460602597
+2016-01-24 22:14:30,736 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LogisticRegression, iter=3, accuracy=0.291989875071
+2016-01-24 22:14:31,099 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=3, accuracy=0.286355842247
+2016-01-24 22:14:31,379 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=3, accuracy=0.289785253531
+2016-01-24 22:14:31,420 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=MultinomialNB, iter=4, accuracy=0.264146321548
+2016-01-24 22:14:31,535 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LDA, iter=4, accuracy=0.290356822079
+2016-01-24 22:14:33,207 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=AdaBoostClassifier, iter=4, accuracy=0.297378949947
+2016-01-24 22:14:33,956 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=LogisticRegression, iter=4, accuracy=0.294766065159
+2016-01-24 22:14:34,294 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, iter=4, accuracy=0.286845758145
+2016-01-24 22:14:34,584 : INFO : Iter:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, iter=4, accuracy=0.289132032334
+2016-01-24 22:14:34,585 : INFO : Stat:	 categ=Movies_and_TV, ftype=GALC, classifier=MultinomialNB, num_test=5, mean=0.262366293786, median=0.260880215563
+2016-01-24 22:14:34,585 : INFO : Stat:	 categ=Movies_and_TV, ftype=GALC, classifier=LDA, num_test=5, mean=0.292528782559, median=0.292071527721
+2016-01-24 22:14:34,585 : INFO : Stat:	 categ=Movies_and_TV, ftype=GALC, classifier=AdaBoostClassifier, num_test=5, mean=0.299126316649, median=0.297460602597
+2016-01-24 22:14:34,585 : INFO : Stat:	 categ=Movies_and_TV, ftype=GALC, classifier=LogisticRegression, num_test=5, mean=0.293541275414, median=0.291989875071
+2016-01-24 22:14:34,585 : INFO : Stat:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsRestClassifier_LinearSVC, num_test=5, mean=0.289115701805, median=0.287254021393
+2016-01-24 22:14:34,585 : INFO : Stat:	 categ=Movies_and_TV, ftype=GALC, classifier=OneVsOneClassifier_LinearSVC, num_test=5, mean=0.291483628644, median=0.289785253531

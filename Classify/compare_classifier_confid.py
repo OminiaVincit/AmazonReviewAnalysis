@@ -33,7 +33,53 @@ from sklearn.multiclass import OneVsOneClassifier
 
 # Not support for ver. 0.17
 #from sklearn.neural_network import MLPClassifier
-NUM_TEST = 5
+NUM_TEST = 10
+
+classifiers = [
+  #GaussianNB(),
+  MultinomialNB(),
+  LDA(),
+  #QDA(),
+  #DecisionTreeClassifier(),
+  #RandomForestClassifier(n_estimators=10, n_jobs=-1),
+  #ExtraTreesClassifier(n_estimators=10, n_jobs=-1),
+  AdaBoostClassifier(n_estimators= 50, learning_rate = 1.0),
+  #NearestCentroid(),
+  #KNeighborsClassifier(),
+  #LinearRegression(normalize=False, n_jobs=-1),
+  #LinearRegression(normalize=True, n_jobs=-1),
+  #LinearRegression(n_jobs=-1),
+  LogisticRegression(),
+  #SVC(kernel='rbf', gamma=2, C=1), # VERY SLOW
+  #SVC(kernel='linear', C=0.025), # VERY SLOW
+  OneVsRestClassifier( LinearSVC( penalty='l1', loss='squared_hinge', dual=False, tol=1e-4 ) ),
+  OneVsOneClassifier( LinearSVC( penalty='l1', loss='squared_hinge', dual=False, tol=1e-4 ) ),
+  OneVsRestClassifier( SVC(kernel='rbf', gamma=2, C=1), n_jobs=-1 ),
+  OneVsOneClassifier( SVC(kernel='rbf', gamma=2, C=1), n_jobs=-1 )
+]
+
+names = [
+  #'GaussianNB',
+  'MultinomialNB',
+  'LDA',
+  #'QDA',
+  #'DecisionTreeClassifier',
+  #'RandomForestClassifier',
+  #'ExtraTreesClassifier',
+  'AdaBoostClassifier',
+  #'NearestCentroid',
+  #'KNeighborsClassifier',
+  #'LinearRegression-UnNormalize',
+  #'LinearRegression-Normalize',
+  #'LinearRegression',
+  'LogisticRegression',
+  #'SVC_rbf',
+  #'SVC_linear',
+  'OneVsRestClassifier_LinearSVC',
+  'OneVsOneClassifier_LinearSVC',
+  'OneVsRestClassifier_RbfSVC',
+  'OneVsOneClassifier_RbfSVC'
+]
 
 def load_src_data(site, index, ftype, data_dir):
   """
@@ -78,82 +124,60 @@ def classify(site, index, ftype, clf, data_dir):
   x_train, y_train, x_test, y_test = load_src_data(site, index, ftype, data_dir)
   print y_test[y_test==2].shape, y_test[y_test==4].shape, y_test[y_test==5].shape
   clf.fit(x_train, y_train)
+  # predict = clf.predict(x_test)
+
   accuracy = clf.score(x_test, y_test)
   print accuracy
 
-def multi_classifier(site, ftype, data_dir):
+def eval_conf(m_dat):
+  """
+  Remove outlier and take median
+  """
+  (nr, nc) = m_dat.shape
+  rs = np.zeros((nc, ), dtype=np.int32)
+  for i in range(nc):
+    tmp = m_dat[:, i]
+    med = np.median(tmp)
+    mad = 1.4826 * np.median(abs(tmp - med))
+    if mad == 0:
+      rs[i] = int(med)
+    else:
+      rs[i] = int(np.median( tmp[ abs(tmp - med) / mad < 2 ] ))
+  return rs
+
+def multi_classifier(site, i, data_dir):
   """
   Multi classifiers
   """
-  classifiers = [
-    #GaussianNB(),
-    MultinomialNB(),
-    LDA(),
-    #QDA(),
-    #DecisionTreeClassifier(),
-    #RandomForestClassifier(n_estimators=10, n_jobs=-1),
-    #ExtraTreesClassifier(n_estimators=10, n_jobs=-1),
-    AdaBoostClassifier(n_estimators= 50, learning_rate = 1.0),
-    #NearestCentroid(),
-    #KNeighborsClassifier(),
-    #LinearRegression(normalize=False, n_jobs=-1),
-    #LinearRegression(normalize=True, n_jobs=-1),
-    #LinearRegression(n_jobs=-1),
-    LogisticRegression(),
-    #SVC(kernel='rbf', gamma=2, C=1), # VERY SLOW
-    #SVC(kernel='linear', C=0.025), # VERY SLOW
-    OneVsRestClassifier( LinearSVC( penalty='l1', loss='squared_hinge', dual=False, tol=1e-4 ) ),
-    OneVsOneClassifier( LinearSVC( penalty='l1', loss='squared_hinge', dual=False, tol=1e-4 ) ),
-    #OneVsRestClassifier( SVC(kernel='rbf', gamma=2, C=1), n_jobs=-1 ),
-    #OneVsOneClassifier( SVC(kernel='rbf', gamma=2, C=1), n_jobs=-1 )
-  ]
 
-  names = [
-    #'GaussianNB',
-    'MultinomialNB',
-    'LDA',
-    #'QDA',
-    #'DecisionTreeClassifier',
-    #'RandomForestClassifier',
-    #'ExtraTreesClassifier',
-    'AdaBoostClassifier',
-    #'NearestCentroid',
-    #'KNeighborsClassifier',
-    #'LinearRegression-UnNormalize',
-    #'LinearRegression-Normalize',
-    #'LinearRegression',
-    'LogisticRegression',
-    #'SVC_rbf',
-    #'SVC_linear',
-    'OneVsRestClassifier_LinearSVC',
-    'OneVsOneClassifier_LinearSVC',
-    #'OneVsRestClassifier_RbfSVC',
-    #'OneVsOneClassifier_RbfSVC'
-  ]
   num_test = NUM_TEST
   x_train, y_train, x_test, y_test = None, None, None, None
   acc_list = {}
-  for name in names:
-    acc_list[name] = []
+  # for name in names:
+  #   acc_list[name] = []
 
-  for i in range(num_test):
-    x_train, y_train, x_test, y_test = load_src_data(site, i, ftype, data_dir)
-    for name, clf in zip(names, classifiers):
+  for name, clf in zip(names, classifiers):
+    predict_buff = []
+    for ftype in FEATURES:
+      x_train, y_train, x_test, y_test = load_src_data(site, i, ftype, data_dir)
       clf.fit(x_train, y_train)
-      accuracy = clf.score(x_test, y_test)
-      acc_list[name].append(accuracy)
+      predicted = clf.predict( x_test )
+      predict_buff.append( predicted )
+      # accuracy = clf.score( x_test, y_test )
+      accuracy = np.sum(predicted == y_test) / float(y_test.shape[0])
+      # acc_list[name].append(accuracy)
       msg = 'Iter:\t categ={}, ftype={}, classifier={}, iter={}, accuracy={}'\
         .format(site, ftype, name, i, accuracy)
       logging.info(msg)
       print ('%s' % msg)
 
-  # Out to log statistic results
-  for name in names:
-    mean_s = np.mean(acc_list[name])
-    med_s = np.median(acc_list[name])
-
-    msg = 'Stat:\t categ={}, ftype={}, classifier={}, num_test={}, mean={}, median={}'\
-      .format(site, ftype, name, num_test, mean_s, med_s)
+    predict_buff = np.vstack(predict_buff)
+    predict_buff = np.array(predict_buff, dtype=np.int32)
+    conf_pred = eval_conf(predict_buff)
+    accuracy = np.sum(conf_pred == y_test) / float(y_test.shape[0])
+    # Out to log statistic results
+    msg = 'Iter:\t categ={}, ftype=ConfAll, classifier={}, iter={}, accuracy={}'\
+      .format(site, name, i, accuracy)
     logging.info(msg)
     print ('%s' % msg)
 
@@ -162,14 +186,14 @@ if __name__ == '__main__':
   # parser.add_argument('--logfile', type=str, default='log.txt')
   # args = parser.parse_args()
 
-  log_file = '%s/log_classify_to_Books_halftrain_%s_%s.txt' % (RESULT_DIR, time.strftime('%Y-%m-%d_%H-%M-%S_'), str(time.time()).replace('.', '') )
+  log_file = '%s/log_classify_confd_halftrain_%s_%s.txt' % (RESULT_DIR, time.strftime('%Y-%m-%d_%H-%M-%S_'), str(time.time()).replace('.', '') )
   logging.basicConfig(
     filename= log_file,
     format='%(asctime)s : %(levelname)s : %(message)s', 
     level=logging.INFO)
 
-  for site in CATEGORIES[:13]:
-    for ftype in FEATURES:
-      print site, ftype
-      multi_classifier(site, ftype, SRC_DIR)
+  for site in CATEGORIES:
+    for i in range(NUM_TEST):
+      print site, i
+      multi_classifier(site, i, SRC_DIR)
   
